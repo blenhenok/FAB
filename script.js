@@ -1,16 +1,3 @@
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("myTopbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -19,4 +6,3 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-
